@@ -2,7 +2,7 @@
 
 class user():
     def __init__(self, name, age):
-        self.name = name
+        self.name = name + 'Prem'
         self.age = age
 
     def display_info(self):
