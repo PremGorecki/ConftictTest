@@ -17,4 +17,4 @@ class admin(user):
 
     def display_info(self):
         super().display_info()
-        print(f"Admin Level: {self.admin_level}")
+        print(f"Adminek Level: {self.admin_level}")
